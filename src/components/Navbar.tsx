@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -11,12 +10,13 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { useState } from "react";
 
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
 import { LogoIcon } from "./Icons";
+import { ModeToggle } from "./mode-toggle";
+import { buttonVariants } from "./ui/button";
 
 interface RouteProps {
   href: string;
@@ -26,20 +26,39 @@ interface RouteProps {
 const routeList: RouteProps[] = [
   {
     href: "#features",
-    label: "Features",
+    label: "About us",
   },
   {
     href: "#testimonials",
-    label: "Testimonials",
+    label: "Activities",
   },
   {
     href: "#pricing",
-    label: "Pricing",
+    label: "Partners",
   },
   {
     href: "#faq",
-    label: "FAQ",
+    label: "Contribute",
   },
+  /*
+  {
+    href: "#faq",
+    label: "Documentation",
+  },*/
+  {
+    href: "#faq",
+    label: "Documentation",
+  },
+  /*
+  {
+    href: "#faq",
+    label: "Contact us",
+  },*/
+  /*
+  {
+    href: "#faq",
+    label: "Follow us",
+  },*/
 ];
 
 export const Navbar = () => {
@@ -63,10 +82,7 @@ export const Navbar = () => {
           <span className="flex md:hidden">
             <ModeToggle />
 
-            <Sheet
-              open={isOpen}
-              onOpenChange={setIsOpen}
-            >
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2">
                 <Menu
                   className="flex md:hidden h-5 w-5"
