@@ -38,7 +38,7 @@ export const Footer = () => {
               Twitter
             </a>
           </div>
-
+          {/*
           <div>
             <a
               rel="noreferrer noopener"
@@ -47,7 +47,7 @@ export const Footer = () => {
             >
               Dribbble
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col gap-2">
@@ -124,7 +124,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Youtube
+              Telegram
             </a>
           </div>
 
@@ -138,15 +138,17 @@ export const Footer = () => {
             </a>
           </div>
 
+          {/*
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Twitch
+              Twitter
             </a>
           </div>
+          */}
         </div>
       </section>
 
@@ -156,10 +158,10 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
+            href="https://www.linkedin.com/in/pastorelucila/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            Lucila Juliana
           </a>
         </h3>
       </section>
