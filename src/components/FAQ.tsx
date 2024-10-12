@@ -13,7 +13,7 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "What is LatAm ZK?",
+    question: "What is Privacy LATAM?",
     answer: "Yes. It is a free ChadcnUI template.",
     value: "item-1",
   },
@@ -24,12 +24,12 @@ const FAQList: FAQProps[] = [
     value: "item-2",
   },
   {
-    question: "Can i join LatAm ZK?",
+    question: "Can I join Privacy LATAM?",
     answer:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
     value: "item-3",
   },
-  {
+  /*{
     question: "Do you provide software development services?",
     answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     value: "item-4",
@@ -39,7 +39,7 @@ const FAQList: FAQProps[] = [
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
     value: "item-5",
-  },
+  },*/
 ];
 
 export const FAQ = () => {
