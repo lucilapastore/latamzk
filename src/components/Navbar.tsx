@@ -38,7 +38,7 @@ const routeList: RouteProps[] = [
   },
   {
     href: "#faq",
-    label: "Contribute",
+    label: "Documentation",
   },
   /*
   {
@@ -47,7 +47,7 @@ const routeList: RouteProps[] = [
   },*/
   {
     href: "#faq",
-    label: "Documentation",
+    label: "Contribute",
   },
   /*
   {
